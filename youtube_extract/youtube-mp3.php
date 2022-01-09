@@ -27,6 +27,6 @@ if(isset($_POST['func'])){
 	$func = $_POST['func'];
 	call_user_func($services[$func]);
 } else {
-	die("잘못된 서비스 요청");
+	die("잘못된 서비스 요청!");
 }
 ?>
